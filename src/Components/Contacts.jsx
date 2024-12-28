@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const Contacts = () => {
 const handleWhatsAppClick = () => {
     const phoneNumber = CONTACT.phoneNo.replace(/\D/g, ''); // Remove non-numeric characters
-    const message = encodeURIComponent("Hey nice portfolio");
+    const message = encodeURIComponent("Hey nice to meet you");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 };
 

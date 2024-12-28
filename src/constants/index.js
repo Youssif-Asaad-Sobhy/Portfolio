@@ -1,62 +1,51 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/about4.png";
 
-export const HERO_CONTENT = `I am a passionate software engineer with a talent for designing and developing scalable, efficient, and user-focused applications. With experience in front-end technologies like React and Next.js, along with back-end expertise in .NET, SQL Server, and MongoDB, I excel at delivering high-quality solutions. My commitment to continuous learning and innovation drives me to create impactful software that enhances user experiences and meets business objectives.`;
+export const HERO_CONTENT = `I am a passionate software engineer from Egypt, specializing in designing and developing scalable, efficient, and user-focused applications. With expertise in front-end technologies like React and Next.js, and back-end proficiency in .NET Core, SQL Server, and MongoDB, I deliver high-quality solutions. My commitment to continuous learning and innovation drives me to create impactful software that enhances user experiences and meets business objectives.`;
 
-export const ABOUT_TEXT = `I am a passionate software engineer with a talent for designing and developing scalable, efficient, and user-focused applications. With expertise in technologies like React, Next.js, .NET, SQL Server, and MongoDB, I have honed my skills through hands-on experience and a commitment to continuous growth. As a 2x ACPC Finalist, I have demonstrated strong problem-solving abilities and a competitive edge in algorithmic challenges. My journey in software development started with a curiosity about creating impactful solutions, and it has grown into a career focused on solving challenges with innovative approaches. I thrive in collaborative environments and enjoy crafting high-quality software that makes a difference. Outside of coding, I enjoy learning about emerging technologies, staying active, and exploring creative projects.`;
+export const ABOUT_TEXT = `As a dedicated software engineer, I have a strong background in developing scalable and efficient applications. My technical expertise includes React, Next.js, .NET Core, SQL Server, and MongoDB. I have demonstrated my problem-solving abilities as a 2x ACPC Finalist, showcasing a competitive edge in algorithmic challenges. My journey in software development began with a curiosity for creating impactful solutions, evolving into a career focused on addressing challenges with innovative approaches. I thrive in collaborative environments and am passionate about crafting high-quality software that makes a difference. Beyond coding, I enjoy exploring emerging technologies, staying active, and engaging in creative projects.`;
 
 export const EXPERIENCES = [
-	{
-		year: "2023 - Present",
-		role: "Junior Full Stack Developer",
-		company: "AlexApps",
-		description: `Contributed to the development and maintenance of web applications using .NET and React. Implemented responsive front-end designs, optimized backend systems, and integrated RESTful APIs. Collaborated with team members to meet project goals and deliver high-quality software solutions.`,
-		technologies: [".NET", "React", "Next.js", "SQL Server", "MongoDB"],
-	},
-	{
-		year: "2021 - 2022",
-		role: "Intern - Software Developer",
-		company: "South Valley University",
-		description: `Assisted in building software applications as part of the academic software development team. Developed and tested modules using .NET and JavaScript, ensuring functionality and user-friendliness.`,
-		technologies: [".NET", "JavaScript", "HTML", "CSS"],
-	},
+  {
+    year: "Dec 2023 - Jul 2024",
+    role: "Junior Full Stack Developer",
+    company: "AlexApps",
+    description: `At AlexApps, I contribute to the development and maintenance of web applications using .NET Core and React. My responsibilities include implementing responsive front-end designs, optimizing back-end systems, and integrating RESTful APIs. Collaborating closely with team members, I strive to meet project goals and deliver high-quality software solutions.`,
+    technologies: [".NET Core", "React", "Next.js", "SQL Server", "MongoDB"],
+  }
 ];
 
 export const PROJECTS = [
-	{
-		title: "Task Management System",
-		image: project1,
-		description:
-			"A web-based application to manage tasks and projects, featuring task creation, tracking, and progress reports.",
-		technologies: ["React", ".NET", "SQL Server"],
-	},
-	{
-		title: "Portfolio Website",
-		image: project2,
-		description:
-			"A personal portfolio website showcasing my projects, skills, and experience, designed to highlight my technical expertise.",
-		technologies: ["React", "CSS", "Bootstrap"],
-	},
-	{
-		title: "Blog Platform",
-		image: project3,
-		description:
-			"A platform for publishing and managing blogs, with features like user authentication, rich text editing, and commenting.",
-		technologies: ["React", "Node.js", "MongoDB"],
-	},
-	{
-		title: "Online Learning System",
-		image: project4,
-		description:
-			"An educational platform with features for managing courses, quizzes, and user profiles, aimed at improving online learning experiences.",
-		technologies: [".NET", "Angular", "SQL Server"],
-	},
+  {
+    title: "Medical System",
+    image: project1,
+    description: "A comprehensive medical system designed to streamline patient management and healthcare operations.",
+    technologies: ["ASP.NET Core", "React", "SQL Server"],
+  },
+  {
+    title: "Meeting Management System",
+    image: project2,
+    description: "A system to efficiently schedule, organize, and manage meetings within an organization.",
+    technologies: ["C#", "ASP.NET", "SQL Server"],
+  },
+  {
+    title: "Brain Tumor Detection Using Machine Learning",
+    image: project3,
+    description: "A machine learning project aimed at detecting brain tumors from medical imaging data.",
+    technologies: ["Python", "Jupyter Notebook", "Machine Learning"],
+  },
+  {
+    title: "Autocar with GPS",
+    image: project4,
+    description: "An Arduino-based automated self-driving car equipped with GPS for navigation.",
+    technologies: ["Arduino", "C++", "GPS Module"],
+  },
 ];
 
 export const CONTACT = {
-	address: "Qena, Egypt",
-	phoneNo: "+201270120879",
-	email: "youssifasaadfci@gmail.com",
+  address: "Qena, Egypt",
+  phoneNo: "+201270120879",
+  email: "youssifasaadfci@gmail.com",
 };

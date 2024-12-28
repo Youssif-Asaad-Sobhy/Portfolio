@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Contacts from "./Components/Contacts";
 import Experience from "./Components/Experience";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/navbar";
@@ -21,6 +22,7 @@ function App() {
 					<Technologies />
 					<Experience />
 					<Projects />
+					<Contacts />
 				</div>
 			</div>
 		</>

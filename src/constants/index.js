@@ -1,6 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/about4.png";
 
 export const HERO_CONTENT = `I am a passionate software engineer from Egypt, specializing in designing and developing scalable, efficient, and user-focused applications. With expertise in front-end technologies like React and Next.js, and back-end proficiency in .NET Core, SQL Server, and MongoDB, I deliver high-quality solutions. My commitment to continuous learning and innovation drives me to create impactful software that enhances user experiences and meets business objectives.`;
@@ -19,6 +18,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Personal Portfolio Website",
+    image: project4,
+    description: "Created a responsive and visually appealing portfolio website to highlight skills, projects, and experiences. Built using React, Tailwind CSS, and Framer Motion for sleek animations and an enhanced user experience. The project demonstrates strong front-end development skills and creativity in design.",
+    technologies: ["React", "Tailwind Css", "Motion"],
+  },
+  {
     title: "Medical System",
     image: project1,
     description: "A comprehensive medical system designed to streamline patient management and healthcare operations.",
@@ -29,18 +34,6 @@ export const PROJECTS = [
     image: project2,
     description: "A system to efficiently schedule, organize, and manage meetings within an organization.",
     technologies: ["C#", "ASP.NET", "SQL Server"],
-  },
-  {
-    title: "Brain Tumor Detection Using Machine Learning",
-    image: project3,
-    description: "A machine learning project aimed at detecting brain tumors from medical imaging data.",
-    technologies: ["Python", "Jupyter Notebook", "Machine Learning"],
-  },
-  {
-    title: "Autocar with GPS",
-    image: project4,
-    description: "An Arduino-based automated self-driving car equipped with GPS for navigation.",
-    technologies: ["Arduino", "C++", "GPS Module"],
   },
 ];
 
